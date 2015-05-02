@@ -1,2 +1,4 @@
 # Graphics
 debug.sf.hw=1
+debug.gralloc.enable_fb_ubwc=1
+
