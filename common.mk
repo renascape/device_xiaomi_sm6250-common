@@ -172,6 +172,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3-service.xiaomi_sm6250
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
