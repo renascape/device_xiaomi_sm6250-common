@@ -8,3 +8,11 @@ ro.sf.blurs_are_expensive=1
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Pixel identification
+ro.build.fingerprint=google/sunfish/sunfish:11/RP1A.200720.011/6746289:user/release-keys
+ro.product.manufacturer=Google
+ro.product.device=sunfish
+ro.product.brand=google
+ro.product.name=sunfish
+ro.product.model=Pixel 4a
