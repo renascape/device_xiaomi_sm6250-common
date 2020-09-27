@@ -23,12 +23,11 @@ cc_binary {
         "service.cpp",
     ],
     header_libs: [
-        "generated_kernel_headers",
+        "//vendor/hentai/build/soong/generator:generated_kernel_headers",
     ],
     shared_libs: [
         "liblog",
         "libhidlbase",
-        "libhidltransport",
         "libutils",
         "android.hardware.power@1.3",
         "android.hardware.power@1.2",
